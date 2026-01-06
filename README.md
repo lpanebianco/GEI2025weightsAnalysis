@@ -4,7 +4,7 @@ The Gender Equality Index (GEI) is a composite indicator to measure the progress
 
 Since its first definition in 2013, the GEI is the result of a geometric mean of six indicators, each of them associated to a different domain: Work, Money, Knowledge, Time, Power, and Health. For the 2025 version, domain weights were obtained through an online survey conducted in the last quarter of 2024, which gathered responses from 125 EIGE stakeholders. Weights were derived using the Analytic Hierarchy Process (AHP), a structured method based on expert judgement. In the 2025 GEI Report, such weights are not published in full precision, but only in a rounded format with 2 decimal places. 
 
-In this notebook, a computational approach to reverse-engineering the Gender Equality Index 2025 domain weights through exhaustive combinatorial analysis. The notebook systematically explores all possible 5-row combinations from the dataset, solves constrained logarithmic linear systems, and identifies optimal high-precision weights (15 decimal places) that best reconstruct the published index values.
+In this notebook, we show a computational approach to reverse-engineering the Gender Equality Index 2025 domain weights through exhaustive combinatorial analysis. The notebook systematically explores all possible 5-row combinations from the dataset, solves constrained logarithmic linear systems, and identifies optimal high-precision weights (15 decimal places) that best reconstruct the published index values.
 
 ## Features
 
